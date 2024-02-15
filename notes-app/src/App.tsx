@@ -3,8 +3,8 @@ import "./App.css";
 const App = () => {
   return (
     <div className="app-container">
-      <form>
-        <input placeholder="title" required />
+      <form className="note-form">
+        <input placeholder="Title" required />
         <textarea placeholder="Content" rows={10} required />
         <button type="submit">Add Note</button>
       </form>
