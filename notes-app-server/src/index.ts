@@ -61,7 +61,7 @@ app.put("/api/notes/:id", async(req,res) =>{
     }
 });
 
-app.delete("/api/notes:id", async(req,res) => {
+app.delete("/api/notes/:id", async(req,res) =>{
     const id=parseInt(req.params.id);
 
     if(!id||isNaN(id)){
