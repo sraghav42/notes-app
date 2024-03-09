@@ -1,0 +1,7 @@
+Steps on how to run the project - 
+    1. Open the notes-app folder on any IDE.
+    2. Navigate to notes-app-server folder using a terminal.
+    3. Run 'npm-start' command, this will start the local server which will handle the requests through REST. The database backend is hosted on ElephantSQL (https://customer.elephantsql.com/login).
+    4. Navigate to 'notes-app' folder using a terminal.
+    5. Run 'npm-start' command. this will start the react app on the browser.
+    6. Kill both the terminal sessions or close the IDE to stop the application.
